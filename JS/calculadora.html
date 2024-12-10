@@ -1,0 +1,44 @@
+<script>
+    function suma(a,b){
+        let l=a+b
+        document.write(l)
+    }
+    suma(n1,n2)
+    function resta(a,b){
+        let l=a-b
+        document.write(l)
+    }
+    resta(n1,n2)
+    function multi(a,b){
+        let l=a*b
+        document.write(l)
+    }
+    multi(n1,n2)
+    function div(a,b){
+        let l=a/b
+        document.write(l)
+    }
+    div(n1,n2)
+    var op=Number(prompt("Seleccione la opcion: \n 1. suma \n 2. resta \n 3. multi \n 4. div"))
+    if(op=1){
+        var n1=Number(prompt("Escriba el numero1"))
+        var n2=Number(prompt("Escriba el numero2"))
+        suma(n1,n2)
+    }
+    else if (op=2){
+        var n1=Number(prompt("Escriba el numero1"))
+        var n2=Number(prompt("Escriba el numero2"))
+        resta(n1,n2)
+    }
+    else if (op=3){
+        var n1=Number(prompt("Escriba el numero1"))
+        var n2=Number(prompt("Escriba el numero2"))
+        multi(n1,n2)
+    }
+    else if (op=4){
+        var n1=Number(prompt("Escriba el numero1"))
+        var n2=Number(prompt("Escriba el numero2"))
+        div(n1,n2)
+    }
+    
+</script>

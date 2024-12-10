@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 150%;
+}
+#imagen1{
+    width: 250px;
+    margin-right: 300px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    height: 200px;
+    width: 200px;
+}
+#titulo{
+    color: orange;
+    position: absolute;
+    font-size: 70px;
+    left: 37%;
+    top: 60px;
+    text-shadow: 7px 7px 15px white;
+}
+li{
+   color: white;
+   display: inline;
+   font-size: 30px;
+   padding-inline: 10px;
+}
+ul{
+    position: absolute;
+    top: 20px;
+    left: 68%;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    background-color: orange;
+}
+h2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-style: italic;
+    font-family:sans-serif;
+    color: coral;
+}
+.h4{
+    height: 150px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-style: italic;
+    font-family:sans-serif;
+    color: coral;
+    margin-left: 26%;
+
+}
+#parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 10%;
+    color: orange;
+    text-align: justify;
+   
+}
+#parrafo_cancha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 10%;
+    color: orange;
+    text-align: justify;
+    padding-top: 15%;
+    
+
+}
+#imagen2{
+    width: 500px;
+    height: 650px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 15px 15px 9px black;
+    float: left;
+    margin: 20px;
+}
+.imagen_cancha{
+    margin: 40px;
+}
+.centrado{
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+.alineado{
+    width: 90%;
+    height: 40%;
+    margin-left: 1%;
+    margin-bottom: 250px;
+}
+#fondo{
+    background-image: url(..//IMG/fondoindex.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.contacto{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height:500px;
+
+}
+.formulario{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 18px;
+}
+.primero{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    background-color: rgb(255, 179, 37);
+}
+.buttonv{
+    background-color: coral;
+     width:80px; 
+     font-size: medium;
+     padding:2%;
+    margin-left: 40%;
+    border-radius: 8px;
+}
+
+
+
+
+
